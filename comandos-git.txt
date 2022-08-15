@@ -5,5 +5,5 @@ git clone <https://url.com.br> - Clonar repositório
 git status : Para checar o status do repositório
 git add . OU git add -A: para adicionar os novos arquivos no controle de versão *LOCAL*. Para commitar as mudanças:
 git commit -m <MENSAGEM DA MUDANÇA>: para de fato commitar as mudanças para o repositório remoto. O parâmetro '-m' permite passar fazer um comentário entre aspas duplas em seguida, dando informações referente ao commit.
-	APÓS o 'git commit' a mudança ainda nã ficará disponível no repositório remoto. É necessário seguir com:
+	APÓS o 'git commit' a mudança ainda nãp ficará disponível no repositório remoto. É necessário seguir com:
 git push origin main: para "pushar" (empurrar) o commit feito para o repositório em nuvem. O main nesse caso é a branch para a qual estamos mandando o commit, e ela pode variar de caso para caso.
