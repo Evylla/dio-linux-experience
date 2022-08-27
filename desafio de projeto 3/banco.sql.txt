@@ -1,0 +1,6 @@
+CREATE TABLE fav(
+nome varchar(20),
+artista varchar(20),
+album varchar(20),
+duracao smallint
+);
